@@ -1,3 +1,43 @@
-/* .light {
-    background-color: red;
-}; */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    height: 100vh;
+    background-color:black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerac{
+    background-color:#a89e9e ;
+    color: white;
+    width: 15vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    border-radius: 10px;
+    border: 5px solid rgb(70, 68, 68);
+    padding: 20px;
+}
+
+.light{
+    border: 2px double black;
+}
+
+.actions{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(100, 108, 141, 0.432);
+    border-radius: 5px;
+}
